@@ -103,14 +103,13 @@ def tri_list(liste:list)->list:
     
     
 
-#print(gen_list_random_int(10, 0, 100))
-#print(gen_list_random_int())
+
 
 list_test_triee=[1,2,3,5,7,8,9,18,20,30,35,40]
-#print(list_test_triee)
+print(list_test_triee)
 print(mix_list(list_test_triee))
-#rint(choose_element_list(list_test_triee))
-#print(extract_elements_list(list_test_triee,6))
+print(choose_element_list(list_test_triee))
+print(extract_elements_list(list_test_triee,6))
 #Pour mesurer le temps d'exécution nous avons à notre disposition 
 #la fonction perf_counter()
 #Récupération du temps système et démarrage du chronomètre
